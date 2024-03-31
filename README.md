@@ -489,4 +489,4 @@ __global__ void reduceUnrolling16(int *g_idata, int *g_odata, unsigned int n)
 ### Unrolling16
 ![](16.png)
 ## RESULT:
-Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that 16 has executed with less elapsed time than 8 with blocks 2.74ms,43.79ms.
+Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that 16 has executed with less elapsed time than 8 with blocks 1048576,1048576.
